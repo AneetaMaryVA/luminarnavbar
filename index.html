@@ -8,19 +8,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/909ba822f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./luminargrid.css">
+    <link rel="stylesheet" href="./luminarnav.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg">
+  <!--header  -->
+  <div style="background-color: #5e068a; height:30px;">
+      <p class="ms-5" style="font-size:13px;" id="head">Have any question?
+      <a href="#" style="text-decoration: none; color:white;"> +918086651651</a></p> 
+  </div>
+  <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top height:50px">
         <div class="container">
             <div style="width: 50%;">
-          <a class="navbar-brand" href="#"><img src="./images/luminarlogo.jpg" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="./images/luminarlogo.jpg" alt="" style="width: 70%;"></a>
         </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mb-2 mb-lg-0" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; font-weight:600;">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: large; font-weight:600;">
               <li class="nav-item fw-bold">
                 <a class="nav-link" style="text-decoration:underline; color:rgb(155, 8, 214)" aria-current="page" href="#">Home</a>
               </li>
@@ -40,9 +49,93 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            
           </div>
         </div>
-      </nav>     
+      </nav>  
+
+      <!-- carousel -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./luminarnav/images/slide1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: white;">Kerala's No.1 IT Finishing School <br> 100% Placement Assistance</h1>
+              <p class="ms-1" style="color: white;" id="demo">We at LUMINAR TECHNOLAB offers best software training and placement in emerging <br>technologies like BIG DATA, Data Science,Machine Learning,PYTHON,Software Testing.</p>
+              <button id="carousel-button" class="btn">VIEW COURSES</button>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./luminarnav/images/slide2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: white;">Data Science,ML & AI <br>Big Data - Hadoop & Spark <br>Python Data Science</h1>
+              <p style="color: white;" id="demo">We at LUMINAR TECHNOLAB offers best software training and placement in emerging <br>technologies like BIG DATA, Data Science,Machine Learning,PYTHON,Software Testing.</p>
+              <button id="carousel-button" class="btn">VIEW COURSES</button>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- middle section using grid -->
+      <div>
+        <button>click here</button>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="p-2" style="color:#5e068a;">Luminar Technolab Pvt Ltd</h3>
+                <h4 class="p-2" style="color:#5e068a99;">CIN : U80220KL2021PTC071578</h4>
+                <p class="ms-1">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced
+                    level software training to Students and by helping them to get placed in IT companies. We are a team of
+                    IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career
+                    foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python Training,
+                    Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to match with
+                    the current industry requirements. Our Vision is to provide 100% placements to students those who enroll
+                    with us for our specialized courses.
+                </p>
+                <button class="btn">LEARN MORE</button>
+            </div>       
+            <div class="col-lg-6 col-sm-12">
+                <img src="./images/grid.jpg" alt="" style="">
+            </div>
+        </div>
+    </div>
+
+    <!-- again middle section using grid  -->
+    <div>
+      <h3 class="mt-5" style ="text-align:center;"><span style="color: #5e068a;">OUR</span> <span style="color: #9e6ab9;">COURSES</span></h3>
+    </div>
+    <div class="container border shadow p-3 mb-5 bg-body rounded mt-5">
+          <div class="row mt-5">
+            <div class="col-lg-6 col-sm-12" >
+              <img src="./luminarnav/images/div img.jpg" alt="" style="width:100%;">
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <h4  style="color: #5e068a;">DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD & TABLEAU </h4>
+              <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
+                 <strong>
+                    <p>📅 Next Batch : Jan 03 <sup>rd</sup> 2022 (09:30 am - 11:30 am) <br></p>
+                    <p>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day<br></p>
+                   <p> 🧑‍🏫 Course Fees:</strong><a href="#">VIEW MORE</a> </p>
+                </p>
+            </div>
+          </div>
+        </div>
+
 </body>
 </html>

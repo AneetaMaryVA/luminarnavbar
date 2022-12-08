@@ -1,0 +1,39 @@
+.navbar{
+    margin-top: 0px;
+}
+#head{
+    width: 100%;  
+    margin-top: 0px;
+    color: white;
+}
+img{
+    width: 100%;    
+}
+#carousel-button{
+    border: 1px;
+    border-radius: 30px;
+    padding: 19px 17px;
+    color: white;
+    background-color: #5e068a;
+    font-weight: 500;
+}
+#carousel-button:hover{
+    background-color:rgb(130, 8, 174);
+}
+.carousel-caption{
+    margin: -50px 10px 10px 10px;
+
+}
+p{
+    line-height: 1.8;
+    margin-top: 20px;
+}
+@media(max-width:866px){
+    h1{
+        font-size:19px;
+    }
+    #demo{
+        font-size:13px;
+ 
+}
+}
