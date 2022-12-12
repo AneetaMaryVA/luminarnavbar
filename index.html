@@ -90,11 +90,46 @@
         </button>
       </div>
 
-      <!-- middle section using grid -->
-      <div>
-        <button>click here</button>
-      </div>
+      <!-- modal section -->
+    <div class="container">
+        <button type="button" class="btn btn-primary" id="carousel-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Quick Enquiry
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
 
+                <div class="modal-body">
+                  <h2>Get Training Quote for free</h2>
+                  <form action="">
+                    <input type="text" placeholder="Name" class="border-0"><hr>
+                    <input type="email" placeholder="Email" class="border-0"><hr>
+                    <input type="number" placeholder="Phone Number" class="border-0"><hr>
+                    <select class="form-select border-0" aria-label="Default select example">
+                        <option selected>Select Course interested in</option>
+                        <option value="1">Data Science -ML-Al-Big Data with Cloud & Tableau</option>
+                        <option value="2">Python Django -Angular-Full Stack Web Development Expert</option>
+                        <option value="3">Software Testing Specialist</option>
+                        <option value="4">MEARN Stacfk Web Debelopment Expert-Angular & React</option>
+                        <option value="5">Business Analytics -Power BI & Tableau</option>
+                        <option value="6">Androud Developer Expert Training In Kochi-Flutter</option>
+                        <option value="7">PYTHON -DATA SCIENCE with ML -AI-& TABLEAU</option>
+                    </select><hr>
+                    <input type="text" id="" placeholder="City" class="border-0"><hr>
+                    <textarea name="" id="" cols="60" rows="4" placeholder="Comment" class="border-0"></textarea><hr>
+                    <button class="btn btn-primary" id="cards-bttn">SUBMIT</button>
+                  </form>
+                </div>
+                </div>
+            </div>
+          </div>
+     </div>
+
+     <!-- middle section using grid -->
       <div class="container mt-5">
         <div class="row">
             <div class="col-lg-6 col-sm-12">
@@ -136,6 +171,48 @@
             </div>
           </div>
         </div>
+
+        <!-- cards -->
+        <div class="container p-2 " style="display: flex; justify-content: center;" >
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card pb-5" style="width: 100%;" id="card-jump">
+                      <img src="./images/card1.jpg" class="card-img-top" alt="..." style="width: 100%;">
+                      <div class="card-body p-3"  style="height: 350px;">
+                        <h5 class="card-title mb-3"  style="color: #5e068a;">Python Django - Angular- Full Stack Web Development Expert</h5>
+                        <p class="card-text">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST API, Git, Angul... </p>
+                        <a href="#" class="mt-3" id="cards-bttn" >VIEW MORE</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card pb-5" style="width: 100%;" id="card-jump">
+                      <img src="./images/card2.jpg" class="card-img-top" alt="..." style="width: 100%;">
+                      <div class="card-body p-3" style="height: 350px;"> 
+                        <h5 class="card-title  mb-3" style="color: #5e068a;">Software Testing Specialist</h5>
+                        <p class="card-text">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web driver, Selenium Advanced Web...</p>
+                        <a href="#" class="mt-4" id="cards-bttn">VIEW MORE</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card pb-5" style="width: 100%;" id="card-jump">
+                      <img src="./images/card3.jpg" class="card-img-top" alt="..." style="width: 100%;">
+                      <div class="card-body p-3" style="height: 350px;">
+                        <h5 class="card-title  mb-3"  style="color: #5e068a;">MEARN Stack Web Development Expert -Angular & React </h5>
+                        <p class="card-text">HTML,CSS, Javascript, Bootstrap,Git,Typescript,MongoDB,MySQL, Express.js, Angular,React.js and Node...</p>
+                        <a href="#" class="mt-5" id="cards-bttn">VIEW MORE</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container-last">
+        <button id="all-crs-bttn">View all Courses</button>
+      </div>  
 
 </body>
 </html>

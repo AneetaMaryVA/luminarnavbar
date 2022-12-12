@@ -6,6 +6,7 @@
     margin-top: 0px;
     color: white;
 }
+/* navbar logo img */
 img{
     width: 100%;    
 }
@@ -22,28 +23,28 @@ img{
 }
 .carousel-caption{
     margin: -50px 10px 10px 10px;
-
 }
-p{
+p{ /* carousel p tag*/
     line-height: 1.8;
     margin-top: 20px;
 }
+/* carousel text decreasing */
 @media(max-width:866px){
     h1{
         font-size:19px;
     }
-    #demo{
+    #demo{          /* p tag in carousel*/
         font-size:13px;
  
 }
 }
-/* grid section after carouscel */
+/*carouscel button */
 .btn{
     border: 2px #5e068a;
     border-radius: 50px;
     padding:16px 27px;
     margin-top: 25px;
-    background-color: blueviolet;
+    background-color: #5e068a;
     color: white;
     font-weight: 500;
 }
@@ -51,13 +52,50 @@ p{
     border:2px solid #5e068a;
     color: #5e068a;
 }
-
-.heaidng{
+/*  */
+.heading{
     padding:-10px 0 0 -30px;
     font-size: 10px;
     background-color: #5e068a;
 }
 .navbar .navbar-brand{
     width:50%;
-    
 }
+/* card */
+#card-jump:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#cards-bttn{
+    border-radius: 1px;
+    background-color: #5e068a;
+    color: white;
+    font-size: 13px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.container-last{ 
+    padding: 30px;
+    display: flex;
+    justify-content: center;   
+}
+#all-crs-bttn{ 
+    border: 2px solid #5e068a;
+    border-radius:35px;
+    padding:20px 20px ;
+    color: #5e068a;
+    font-weight: 10px;
+    height: 65px;
+
+}
+#all-crs-bttn:hover{
+    border: 2px solid;
+    background-color:  #5e068a;
+    color: white;
+}
+/* modal hr */
+hr {
+    border-top: 1px solid;
+ }
+
+
+
